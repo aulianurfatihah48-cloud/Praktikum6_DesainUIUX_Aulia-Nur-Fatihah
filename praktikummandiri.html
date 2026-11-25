@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Praktikum Mandiri Pengolah Nilai Mahasiswa</h1>
+
+    <script>
+        const name = "Aulia"
+        const tugas = 45;
+        const uts = 50;
+        const uas = 78;
+        const akhir = tugas * 0.30 + uts * 0.30 + uas * 0.40;
+        let status;
+
+        console.log("Nama Mahasiswa:", name);
+        console.log("Nilai Akhir:", akhir);
+
+        if (akhir >= 60) {
+            status = "LULUS";
+        } else {
+            status = "TIDAK LULUS";
+        }
+
+        console.log(status);
+    </script>
+</body>
+</html>
